@@ -6,7 +6,7 @@ module.exports.config = {
   description: "out box",
   commandCategory: "Admin",
   usages: "out [tid]",
-  cooldowns: 3
+  cooldowns: 4
 };
 
 module.exports.run = async function({ api, event, args }) {
